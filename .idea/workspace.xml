@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f581e1-652e-49bc-82ef-915c3b99d712" name="Changes" comment="" />
+    <list default="true" id="37f581e1-652e-49bc-82ef-915c3b99d712" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -44,20 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_account_page.TestaccountPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account_page.TestaccountPage.test_open_account_page_by_button_click_on_main_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account_page.TestaccountPage.test_open_orders_history_by_button_click_on_account_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.TestMainPage.test_open_constructor_page_by_click_on_header_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.TestMainPage.test_open_order_history_by_click_on_header_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_password_recovery.TestPasswordRecovery.test_password_show_button_and_active_state_by_click_on_hide_password_button.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Diplom/Diplom_3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests for test_account_page.TestaccountPage.executor": "Run",
+    "Python tests.Python tests for test_account_page.TestaccountPage.test_open_account_page_by_button_click_on_main_page.executor": "Run",
+    "Python tests.Python tests for test_account_page.TestaccountPage.test_open_orders_history_by_button_click_on_account_page.executor": "Run",
+    "Python tests.Python tests for test_main_page.TestMainPage.test_open_constructor_page_by_click_on_header_button.executor": "Run",
+    "Python tests.Python tests for test_main_page.TestMainPage.test_open_order_history_by_click_on_header_button.executor": "Run",
+    "Python tests.Python tests for test_password_recovery.TestPasswordRecovery.test_password_show_button_and_active_state_by_click_on_hide_password_button.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop3",
+    "last_opened_file_path": "C:/Users/user/Desktop/Diplom/Diplom_3"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Diplom_3" />
