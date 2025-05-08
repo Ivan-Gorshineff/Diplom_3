@@ -18,11 +18,6 @@ class BasePage:
         return WebDriverWait(self.driver, 60).until(
             EC.visibility_of_element_located(locator))
 
-    @step('Ждем пока текст элемента HTML по локатору будет отличаться от значения')
-    def wait_for_changed_text(self, locator, text):
-        return WebDriverWait(self.driver, 60).until(
-            EC.none_of(EC.text_to_be_present_in_element(locator, text)))
-
     @step('Ждем открытие страницы при переходе по ссылке URL')
     def wait_for_open_page(self, url):
         return WebDriverWait(self.driver, 60).until(EC.url_to_be(url))

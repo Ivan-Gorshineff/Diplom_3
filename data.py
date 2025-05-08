@@ -3,8 +3,8 @@ _browser = 'Chrome'
 
 # тестовые данные для функции восстановления пароля
 class UserData:
-    USER_EMAIL = 'ivanivanov@mail.ru'
-    USER_PASSWORD = '123456'
+    USER_EMAIL = 'IvanGorshinev019@ya.ru'
+    USER_PASSWORD = 'ivan_ivanov'
 
 
 class Urls:
