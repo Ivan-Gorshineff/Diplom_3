@@ -26,8 +26,8 @@ class ConstructorPage(BasePage):
         self.click_element_by_locator(ConstructorPageLocators.PROFILE_LINK)
 
     @step('Открываем Личный кабинет по ссылке на Главной странице')
-    def open_profile_by_link(self):
-        self.open_page()
+    def click_and_open_profile_by_link(self):
+        self.open_constructor_page()
         self.wait_for_load_element(ConstructorPageLocators.ORDER_BUTTON)
         # кликаем Личный кабинет в хедере
         self.click_profile_link()

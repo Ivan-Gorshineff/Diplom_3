@@ -8,6 +8,7 @@ class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
+        self.url = None
 
     @step('Открываем страницу по URL')
     def open_page(self, url):

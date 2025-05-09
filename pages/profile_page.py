@@ -10,7 +10,7 @@ class ProfilePage(BasePage):
     step('Открываем Личный кабинет по ссылке на Главной странице')
     def open_profile_page(self):
         constructor_page = ConstructorPage(self.driver)
-        constructor_page.open_profile_by_link()
+        constructor_page.click_and_open_profile_by_link()
 
     @step('кликаем ссылку "История заказов"')
     def click_order_history_link(self):
