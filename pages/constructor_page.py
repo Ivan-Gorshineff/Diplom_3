@@ -115,6 +115,7 @@ class ConstructorPage(BasePage):
     def create_order(self):
         self._create_order()
         self.order_details_is_visible()
+        self.wait_for_changed_text(ConstructorPageLocators.ORDER_MODAL_ORDER_NUMBER, '9999')
         number = self.get_number_order()
         self.click_element_by_locator(ConstructorPageLocators.ORDER_CLOSE_BUTTON)
         return str(number)

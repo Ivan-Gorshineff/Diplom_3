@@ -17,4 +17,4 @@ class ResetPasswordPage(BasePage):
 
     @step('Проверяем, что поле "пароль" становится активным')
     def check_password_field_focused(self):
-        self.wait_for_text_in_class_name(ResetPasswordPageLocators.FOCUSED_FIELD, ResetPasswordPageLocators.FOCUSED_TEXT)
+        return self.wait_for_text_in_class_name(ResetPasswordPageLocators.FOCUSED_FIELD, ResetPasswordPageLocators.FOCUSED_TEXT)

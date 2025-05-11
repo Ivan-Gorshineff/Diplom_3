@@ -1,4 +1,5 @@
 from allure import step
+
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver import ActionChains
@@ -94,3 +95,8 @@ class BasePage:
     @step('Проверяем что элемент становится невидимым')
     def wait_for_invisibility_of_element(self, locator):
         return WebDriverWait(self.driver, 30).until(EC.invisibility_of_element_located(locator))
+
+    @step('Ждем пока текст элемента HTML по локатору будет отличаться от значения')
+    def wait_for_changed_text(self, locator, text_value):  # Bool
+        return WebDriverWait(self.driver, 20).until(
+            EC.none_of(EC.text_to_be_present_in_element(locator, text_value)))

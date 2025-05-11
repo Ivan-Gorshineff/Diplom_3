@@ -5,8 +5,6 @@ from helpers.api_requests import ApiRequests as ar
 from allure import step
 
 
-# Вспомогательные функции для регистрации/удаления пользователя с помощью API
-# генерируем логин, пароль и имя пользователя
 class GenerateUser:
 
     @staticmethod
@@ -20,7 +18,6 @@ class GenerateUser:
             'password': password,
             'name': name
         }
-        # возвращаем словарь
         return user_data
 
     @staticmethod

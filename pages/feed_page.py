@@ -38,7 +38,10 @@ class FeedPage(BasePage):
     def get_order_number_list(self):
         self.open_feed_page()
         elements = self.__get_order_number_list_elements()
-        order_list = [item.text for item in elements]
+        order_list = []
+        for item in elements:
+            number = item.text
+            order_list.append(number)
         return order_list
 
     @step('Получаем список элементов страницы с номерами заказов в разделе "В работе"')

@@ -4,7 +4,7 @@ from data import Urls
 from locators.login_page_locators import LoginPageLocators
 from pages.constructor_page import ConstructorPage
 from pages.profile_page import ProfilePage
-from conftest import create_new_user_by_api, get_browser, login_new_user
+from conftest import create_new_user_by_api, login_new_user, get_browser
 
 
 class TestProfilePage:
